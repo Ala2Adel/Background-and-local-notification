@@ -35,6 +35,7 @@ dependencies:
   shared_preferences: ^2.0.5
   flutter_flexible_toast: ^0.1.4
   flutter_local_notifications:
+  battery_plus: ^1.0.2
 
 dev_dependencies:
   flutter_test:

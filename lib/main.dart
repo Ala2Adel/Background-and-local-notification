@@ -3,7 +3,7 @@ import 'package:background_fetch/background_fetch.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:realtime_chat_ably/screens/chat_screen.dart';
-import 'package:realtime_chat_ably/splashscreen.dart';
+import 'file:///E:/Alaa%20Alaraby/realtime_chat_ably/lib/screens/home_screen.dart';
 
 // [Android-only] This "Headless Task" is run when the Android app
 // is terminated with enableHeadless: true
@@ -61,13 +61,13 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ably Flutter Chat',
-      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.lightBlueAccent,
-        accentColor: Color(0xFFFEF9EB),
+        primaryColor: Colors.indigo,
+        accentColor: Colors.white,
       ),
-      home: SplashScreen(),
+      // title: 'Ably Flutter Chat',
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 
